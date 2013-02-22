@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="html_head_version">Wordpress version:</string>
+    <string name="html_author">Author:</string>
+    <string name="html_themes">Themes Found:</string>
+    <string name="html_themes_vuln">Themes Vuln Found:</string>
+    <string name="html_timthumbs">Timthumbs Found:</string>
+    <string name="html_plugins">Plugins Found:</string>
+    <string name="html_plugins_vuln">Plugin Vuln Found:</string>
+    <string name="finish">Scan finish.</string>   
+    <string name="app_name">WPScan</string>
+    <string name="title_section3">About</string>
+    <string name="title_section2">Settings</string>
+    <string name="title_section1">WPSCAN</string>
+    <string name="menu_settings">About</string>
+    <string name="search_button">Scan</string>
+    <string name="see_report">See Report</string>
+    <string name="send_report">Send Report To Mail</string>
+    <string name="example">http://www.clshack.com</string>
+    <string name="error_search_editext">Error, insert site.</string>
+    <string name="error_search_notonline">Error, go online.</string>
+    <string name="no_wordpress">Error, no wordpress found.</string>
+    <string name="error_url_not_valid">Error, insert valid url.</string>
+    <string name="error_search_nothost">Error, insert valid host or check your internet connection.This, don\'t return 200 code.</string>
+    <string name="progress">Wait please.</string>
+    <string name="enum_autor">Enum author.</string>
+    <string name="enum_timthumbs">Enum Timthumbs file with brute force (lot of time).</string>
+    <string name="enum_plugins">Enum plugins with brute force (lot of time).</string>
+    <string name="enum_themes">Enum themes with brute force (lot of time).</string>
+    <string name="about">\n Alessio Dalla Piazza \n=================\n Email: alessio.dallapiazza@gmail.com \n=================\n Blog: www.clshack.com \n=================\n All reports are writtend in external folder: \n WPScan</string>
+
+</resources>

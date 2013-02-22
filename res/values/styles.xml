@@ -1,0 +1,43 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="lightboxButton">
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textColor">@drawable/btn_text_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#75000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="lightboxButton.Blue">
+        <item name="android:background">@drawable/btn_blue</item>
+    </style>
+
+    <style name="lightboxButton.Green">
+        <item name="android:background">@drawable/btn_green</item>
+    </style>
+
+    <style name="lightboxButton.Grey">
+        <item name="android:background">@drawable/btn_grey</item>
+    </style>
+</resources>

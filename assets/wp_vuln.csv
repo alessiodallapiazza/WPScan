@@ -1,0 +1,223 @@
+version;title;reference;type
+3.5;WordPress 3.5 to 3.3.2 Cross-Site Scripting (XSS) (Issue 3);https://github.com/wpscanteam/wpscan/wiki/WordPress-3.5-Issues;XSS
+3.5;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.5;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.4.2;WordPress 3.5 to 3.3.2 Cross-Site Scripting (XSS) (Issue 3);https://github.com/wpscanteam/wpscan/wiki/WordPress-3.5-Issues;XSS
+3.4.2;WordPress 3.4.2 Cross Site Request Forgery;http://packetstormsecurity.org/files/116785/WordPress-3.4.2-Cross-Site-Request-Forgery.html;CSRF
+3.4.2;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.4.2;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.4.1;WordPress 3.5 to 3.3.2 Cross-Site Scripting (XSS) (Issue 3);https://github.com/wpscanteam/wpscan/wiki/WordPress-3.5-Issues;XSS
+3.4.1;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.4.1;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.4;WordPress 3.5 to 3.3.2 Cross-Site Scripting (XSS) (Issue 3);https://github.com/wpscanteam/wpscan/wiki/WordPress-3.5-Issues;XSS
+3.4;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.4;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.4-beta4;WordPress 3.5 to 3.3.2 Cross-Site Scripting (XSS) (Issue 3);https://github.com/wpscanteam/wpscan/wiki/WordPress-3.5-Issues;XSS
+3.4-beta4;Wordpress 3.3.1 Multiple CSRF Vulnerabilities;http://www.exploit-db.com/exploits/18791/;CSRF
+3.4-beta4;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.4-beta4;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.3.3;WordPress 3.5 to 3.3.2 Cross-Site Scripting (XSS) (Issue 3);https://github.com/wpscanteam/wpscan/wiki/WordPress-3.5-Issues;XSS
+3.3.3;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.3.3;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.3.2;WordPress 3.5 to 3.3.2 Cross-Site Scripting (XSS) (Issue 3);https://github.com/wpscanteam/wpscan/wiki/WordPress-3.5-Issues;XSS
+3.3.2;Wordpress 3.3.1 Multiple CSRF Vulnerabilities;http://www.exploit-db.com/exploits/18791/;CSRF
+3.3.2;WordPress 3.3.2 Cross Site Scripting;http://packetstormsecurity.org/files/113254;XSS
+3.3.2;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.3.2;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.3.1;Multiple vulnerabilities including XSS and Privilege Escalation;http://wordpress.org/news/2012/04/wordpress-3-3-2/;MULTI
+3.3.1;Wordpress 3.3.1 Multiple CSRF Vulnerabilities;http://www.exploit-db.com/exploits/18791/;CSRF
+3.3.1;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+3.3.1;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.3.1;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.3;Reflected Cross-Site Scripting in WordPress 3.3;http://oldmanlab.blogspot.com/2012/01/wordpress-33-xss-vulnerability.html;XSS
+3.3;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+3.3;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.3;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.2.1;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+3.2.1;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.2.1;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.2;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+3.2;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.2;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.1.4;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+3.1.4;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.1.4;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.1.3;Multiple SQL Injection Vulnerabilities;http://www.exploit-db.com/exploits/17465/;SQLI
+3.1.3;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+3.1.3;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.1.3;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.1.2;Wordpress <= 3.1.2 Clickjacking Vulnerability;http://seclists.org/fulldisclosure/2011/Sep/219;UNKNOWN
+3.1.2;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+3.1.2;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.1.2;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.1.1;WordPress wp-includes/formatting.php make_clickable() PCRE Library Remote DoS;http://osvdb.org/show/osvdb/72142;UNKNOWN
+3.1.1;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+3.1.1;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.1.1;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.1;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+3.1;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.1;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.0.6;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+3.0.6;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.0.6;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.0.5;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+3.0.5;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.0.5;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.0.4;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+3.0.4;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.0.4;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.0.3;SQL injection vulnerability in do_trackbacks() Wordpress function;http://www.exploit-db.com/exploits/15684/;SQLI
+3.0.3;Wordpress 3.0.3 stored XSS IE7,6 NS8.1;http://www.exploit-db.com/exploits/15858/;XSS
+3.0.3;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+3.0.3;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.0.3;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.0.2;WordPress XML-RPC Interface Access Restriction Bypass;http://osvdb.org/69761;UNKNOWN
+3.0.2;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+3.0.2;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.0.2;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.0.1;WordPress: Information Disclosure via SQL Injection Attack;http://blog.sjinks.pro/wordpress/858-information-disclosure-via-sql-injection-attack/;SQLI
+3.0.1;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+3.0.1;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.0.1;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+3.0;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+3.0;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+3.0;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.9.2;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+2.9.2;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.9.2;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.9.1;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+2.9.1;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.9.1;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.9;WordPress 2.9 Failure to Restrict URL Access;http://www.exploit-db.com/exploits/11441/;UNKNOWN
+2.9;Wordpress DOS <= 2.9;http://www.exploit-db.com/exploits/11441/;UNKNOWN
+2.9;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+2.9;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.9;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.8.6;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+2.8.6;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.8.6;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.8.5;WordPress <= 2.8.5 Unrestricted File Upload Arbitrary PHP Code Execution;http://www.exploit-db.com/exploits/10089/;UNKNOWN
+2.8.5;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+2.8.5;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.8.5;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.8.4;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+2.8.4;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.8.4;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.8.3;Wordpress <= 2.8.3 Remote Admin Reset Password Vulnerability;http://www.exploit-db.com/exploits/9410/;UNKNOWN
+2.8.3;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+2.8.3;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.8.3;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.8.2;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+2.8.2;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.8.2;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.8.1;Wordpress 2.8.1 (url) Remote Cross Site Scripting Exploit;http://www.exploit-db.com/exploits/9250/;XSS
+2.8.1;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+2.8.1;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.8.1;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.8;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+2.8;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.8;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.7.1;WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability;http://www.exploit-db.com/exploits/10088/;UNKNOWN
+2.7.1;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+2.7.1;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.7.1;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.7;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+2.7;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.7;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.6.5;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+2.6.5;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.6.5;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.6.4;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+2.6.4;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.6.4;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.6.3;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+2.6.3;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.6.3;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.6.2;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+2.6.2;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.6.2;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.6.1;Wordpress 2.6.1 (SQL Column Truncation) Admin Takeover Exploit;http://www.exploit-db.com/exploits/6421/;UNKNOWN
+2.6.1;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+2.6.1;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.6.1;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.6;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+2.6;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.6;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.5.1;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+2.5.1;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.5.1;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.5;XSS vulnerability in swfupload in WordPress;http://seclists.org/fulldisclosure/2012/Nov/51;XSS
+2.5;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.5;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.3.3;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.3.3;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.3.2;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.3.2;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.3.1;Wordpress <= 2.3.1 Charset Remote SQL Injection Vulnerability;http://www.exploit-db.com/exploits/4721/;SQLI
+2.3.1;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.3.1;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.3;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.3;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.2.3;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.2.3;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.2.2;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.2.2;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.2.1;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.2.1;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.2;WordPress 2.2 (wp-app.php) Arbitrary File Upload Exploit;http://www.exploit-db.com/exploits/4113/;UNKNOWN
+2.2;Wordpress 2.2 (xmlrpc.php) Remote SQL Injection Exploit;http://www.exploit-db.com/exploits/4039/;SQLI
+2.2;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.2;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.1.3;Wordpress 2.1.3 admin-ajax.php SQL Injection Blind Fishing Exploit;http://www.exploit-db.com/exploits/3960/;SQLI
+2.1.3;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.1.3;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.1.2;"WordPress ""year"" Cross-Site Scripting Vulnerability";http://secunia.com/advisories/24485/;XSS
+2.1.2;"WordPress ""year"" Cross-Site Scripting Vulnerability";http://www.securityfocus.com/archive/1/archive/1/462374/100/0/threaded;XSS
+2.1.2;Wordpress 2.1.2 (xmlrpc) Remote SQL Injection Exploit;http://www.exploit-db.com/exploits/3656/;SQLI
+2.1.2;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.1.2;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.1.1;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.1.1;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.1;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.1;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.0.11;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.0.11;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.0.10;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.0.10;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.0.9;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.0.9;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.0.8;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.0.8;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.0.7;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.0.7;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.0.6;Wordpress <= 2.0.6 wp-trackback.php Remote SQL Injection Exploit;http://www.exploit-db.com/exploits/3109/;SQLI
+2.0.6;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.0.6;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.0.5;Wordpress 2.0.5 Trackback UTF-7 Remote SQL Injection Exploit;http://www.exploit-db.com/exploits/3095/;SQLI
+2.0.5;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.0.5;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.0.4;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.0.4;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.0.3;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.0.3;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.0.2;WordPress <= 2.0.2 (cache) Remote Shell Injection Exploit;http://www.exploit-db.com/exploits/6/;UNKNOWN
+2.0.2;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.0.2;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.0.1;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.0.1;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+2.0;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+2.0;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+1.5.2;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+1.5.2;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+1.5.1.3;Wordpress <= 1.5.1.3 Remote Code Execution eXploit (metasploit);http://www.exploit-db.com/exploits/1145/;SQLI
+1.5.1.3;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+1.5.1.3;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+1.5.1.2;Wordpress <= 1.5.1.2 xmlrpc Interface SQL Injection Exploit;http://www.exploit-db.com/exploits/1077/;SQLI
+1.5.1.2;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+1.5.1.2;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+1.5.1.1;"WordPress <= 1.5.1.1 ""add new admin"" SQL Injection Exploit";http://www.exploit-db.com/exploits/1059/;SQLI
+1.5.1.1;WordPress <= 1.5.1.1 SQL Injection Exploit;http://www.exploit-db.com/exploits/1033/;SQLI
+1.5.1.1;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+1.5.1.1;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN
+1.5.1;XMLRPC Pingback API Internal/External Port Scanning;https://github.com/FireFart/WordpressPingbackPortScanner;UNKNOWN
+1.5.1;WordPress XMLRPC pingback additional issues;http://lab.onsec.ru/2013/01/wordpress-xmlrpc-pingback-additional.html;UNKNOWN

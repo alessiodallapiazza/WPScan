@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Section1" >
+
+    <TextView
+        android:id="@+id/about_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:text="@string/about"
+        android:clickable="true"
+        android:autoLink="all"
+        android:linksClickable="true"  
+        android:textSize="15sp"
+        >
+
+    </TextView>
+
+</RelativeLayout>
