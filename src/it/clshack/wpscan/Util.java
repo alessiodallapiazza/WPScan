@@ -23,7 +23,9 @@ public class Util {
 		try {
 			url = new URL(siteAndPage);
 			con = (HttpURLConnection) url.openConnection();
-            con.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.14 Safari/537.17");
+			con.setRequestProperty(
+					"User-Agent",
+					"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.14 Safari/537.17");
 			con.setInstanceFollowRedirects(false);
 			con.setReadTimeout(10000);
 			con.setConnectTimeout(15000);
@@ -43,6 +45,32 @@ public class Util {
 		return "";
 	}
 
+	public static String getHeadersServer(String site) {
+		HttpURLConnection con = null;
+		URL url;
+		try {
+			url = new URL(site);
+			con = (HttpURLConnection) url.openConnection();
+			con.setRequestProperty(
+					"User-Agent",
+					"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.14 Safari/537.17");
+			con.setInstanceFollowRedirects(false);
+			con.setReadTimeout(10000);
+			con.setConnectTimeout(15000);
+			con.setRequestMethod("GET");
+			con.setDoInput(true);
+			con.addRequestProperty("Referer", "https://www.google.com");
+			con.connect();
+			Map<String, List<String>> headers = con.getHeaderFields();
+			if (headers.containsKey("Server"))
+				return con.getHeaderField("Server");
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return "";
+	}
+
 	public static boolean getResponseCode(String siteAndPage) {
 		HttpURLConnection con = null;
 		URL url;
@@ -54,7 +82,9 @@ public class Util {
 			con.setConnectTimeout(15000);
 			con.setRequestMethod("GET");
 			con.setDoInput(true);
-            con.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.14 Safari/537.17");
+			con.setRequestProperty(
+					"User-Agent",
+					"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.14 Safari/537.17");
 			con.addRequestProperty("Referer", "https://www.google.com");
 			con.connect();
 			if (con.getResponseCode() == 200)
@@ -80,7 +110,9 @@ public class Util {
 			con.setConnectTimeout(15000);
 			con.setRequestMethod("GET");
 			con.setDoInput(true);
-            con.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.14 Safari/537.17");
+			con.setRequestProperty(
+					"User-Agent",
+					"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.14 Safari/537.17");
 			con.addRequestProperty("Referer", "https://www.google.com");
 			con.connect();
 			is = con.getInputStream();
@@ -143,13 +175,13 @@ public class Util {
 		return false;
 	}
 
-	public static boolean fileExist(String file)
-	{
+	public static boolean fileExist(String file) {
 		File output = new File(file);
-		if(output.exists())
+		if (output.exists())
 			return true;
 		return false;
 	}
+
 	public static void savePreferences(String propriety, boolean value,
 			Context ctx) {
 		SharedPreferences userDetails = ctx.getSharedPreferences("wpScan",

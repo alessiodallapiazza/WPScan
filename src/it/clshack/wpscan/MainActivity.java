@@ -143,6 +143,7 @@ public class MainActivity extends FragmentActivity implements
 		public ArrayList<String> plugins, themes, timthumbs;
 		public WordpressThemes wordpressThemes = new WordpressThemes();
 		public WordpressPlugins wordpressPlugins = new WordpressPlugins();
+		public Server server= new Server();
 
 		public DummySectionFragment() {
 		}
@@ -387,6 +388,7 @@ public class MainActivity extends FragmentActivity implements
 					progressBar.setProgress(80);
 					enumThemesHTML();
 					enumThemesVuln();
+					enumServer();
 				} catch (Exception e) {
 					e.printStackTrace();
 				} finally {
@@ -480,6 +482,7 @@ public class MainActivity extends FragmentActivity implements
 					timthumbs = wordpressThemes.enumTimthumbs(getActivity()
 							.getApplicationContext(), site);
 					if (timthumbs != null && !timthumbs.isEmpty()) {
+						Util.writeResult("<br>", site_file, true);
 						Util.writeResult(getString(R.string.html_timthumbs),
 								site_file, true);
 						for (String r : timthumbs) {
@@ -509,6 +512,7 @@ public class MainActivity extends FragmentActivity implements
 			public void enumPluginsHTML() {
 				plugins = wordpressPlugins.enumPluginsHTML(site);
 				if (plugins != null && !plugins.isEmpty()) {
+					Util.writeResult("<br>", site_file, true);
 					Util.writeResult(getString(R.string.html_plugins),
 							site_file, true);
 					for (String r : plugins) {
@@ -521,6 +525,7 @@ public class MainActivity extends FragmentActivity implements
 				String r = wordpressPlugins.enumPluginsVuln(getActivity()
 						.getApplication(), plugins);
 				if (r != null && !r.equals("")) {
+					Util.writeResult("<br>", site_file, true);
 					Util.writeResult("<li>"
 							+ getString(R.string.html_plugins_vuln) + r
 							+ "</li>", site_file, true);
@@ -530,6 +535,7 @@ public class MainActivity extends FragmentActivity implements
 			public void enumThemesHTML() {
 				themes = wordpressThemes.enumThemesHTML(site);
 				if (themes != null && !themes.isEmpty()) {
+					Util.writeResult("<br>", site_file, true);
 					Util.writeResult(getString(R.string.html_themes),
 							site_file, true);
 					for (String r : themes) {
@@ -542,9 +548,19 @@ public class MainActivity extends FragmentActivity implements
 				String r = wordpressThemes.enumThemesVuln(getActivity()
 						.getApplication(), themes);
 				if (r != null && !r.equals("")) {
+					Util.writeResult("<br>", site_file, true);
 					Util.writeResult("<li>"
 							+ getString(R.string.html_themes_vuln) + r
 							+ "</li>", site_file, true);
+				}
+			}
+			public void enumServer()
+			{
+				String serverName = server.getServerName(site);
+				if(serverName != null && !serverName.trim().equals(""))
+				{
+					Util.writeResult("<br>", site_file, true);
+					Util.writeResult(getString(R.string.html_server_version)+serverName, site_file, true);
 				}
 			}
 		};
