@@ -45,7 +45,7 @@ public class Util {
 		return "";
 	}
 
-	public static String getHeadersServer(String site) {
+	public static String getHeaders(String site,String header) {
 		HttpURLConnection con = null;
 		URL url;
 		try {
@@ -62,8 +62,8 @@ public class Util {
 			con.addRequestProperty("Referer", "https://www.google.com");
 			con.connect();
 			Map<String, List<String>> headers = con.getHeaderFields();
-			if (headers.containsKey("Server"))
-				return con.getHeaderField("Server");
+			if (headers.containsKey(header))
+				return con.getHeaderField(header);
 
 		} catch (Exception e) {
 			e.printStackTrace();

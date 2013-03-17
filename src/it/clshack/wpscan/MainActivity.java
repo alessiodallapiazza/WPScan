@@ -143,7 +143,7 @@ public class MainActivity extends FragmentActivity implements
 		public ArrayList<String> plugins, themes, timthumbs;
 		public WordpressThemes wordpressThemes = new WordpressThemes();
 		public WordpressPlugins wordpressPlugins = new WordpressPlugins();
-		public Server server= new Server();
+		public OtherInfo otherinfo = new OtherInfo();
 
 		public DummySectionFragment() {
 		}
@@ -355,7 +355,7 @@ public class MainActivity extends FragmentActivity implements
 			Thread start_scan = new Thread(start_check);
 			start_scan.start();
 			((TextView) getActivity().findViewById(R.id.error_text))
-			.setText(getString(R.string.finish));
+					.setText(getString(R.string.finish));
 		}
 
 		private Runnable start_check = new Runnable() {
@@ -389,6 +389,9 @@ public class MainActivity extends FragmentActivity implements
 					enumThemesHTML();
 					enumThemesVuln();
 					enumServer();
+					enumRobots();
+					enumPhp();
+					enumBkWpconfig();
 				} catch (Exception e) {
 					e.printStackTrace();
 				} finally {
@@ -554,13 +557,38 @@ public class MainActivity extends FragmentActivity implements
 							+ "</li>", site_file, true);
 				}
 			}
-			public void enumServer()
-			{
-				String serverName = server.getServerName(site);
-				if(serverName != null && !serverName.trim().equals(""))
-				{
+
+			public void enumServer() {
+				String serverName = otherinfo.getServerName(site);
+				if (serverName != null && !serverName.trim().equals("")) {
 					Util.writeResult("<br>", site_file, true);
-					Util.writeResult(getString(R.string.html_server_version)+serverName, site_file, true);
+					Util.writeResult(getString(R.string.html_server_version)
+							+ serverName, site_file, true);
+				}
+			}
+			
+			public void enumPhp() {
+				String phpversion = otherinfo.getPhpVersion(site);
+				if (phpversion != null && !phpversion.trim().equals("")) {
+					Util.writeResult("<br>", site_file, true);
+					Util.writeResult(getString(R.string.html_php_version)
+							+ phpversion, site_file, true);
+				}
+			}
+			
+			public void enumBkWpconfig() {
+				if (otherinfo.getBkFileWpConfig(site)) {
+					Util.writeResult("<br>", site_file, true);
+					Util.writeResult(getString(R.string.html_bk_founs),
+							site_file, true);
+				}
+			}
+
+			public void enumRobots() {
+				if (otherinfo.getFileRobots(site)) {
+					Util.writeResult("<br>", site_file, true);
+					Util.writeResult(getString(R.string.html_robots_founs),
+							site_file, true);
 				}
 			}
 		};

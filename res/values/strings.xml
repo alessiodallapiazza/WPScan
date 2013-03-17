@@ -3,6 +3,9 @@
 	
     <string name="html_head_version">Wordpress version:</string>
     <string name="html_server_version">Server version:</string>
+    <string name="html_php_version">Php version:</string>
+    <string name="html_robots_founs">Found file robots.txt</string>
+    <string name="html_bk_founs">Found backup file of wp-config.php</string>
     <string name="html_author">Author:</string>
     <string name="html_themes">Themes Found:</string>
     <string name="html_themes_vuln">Themes Vuln Found:</string>
@@ -18,7 +21,7 @@
     <string name="search_button">Scan</string>
     <string name="see_report">See Report</string>
     <string name="send_report">Send Report To Mail</string>
-    <string name="example">http://www.clshack.com</string>
+    <string name="example">http://www.example.com</string>
     <string name="error_search_editext">Error, insert site.</string>
     <string name="error_search_notonline">Error, go online.</string>
     <string name="no_wordpress">Error, no wordpress found.</string>
@@ -29,6 +32,6 @@
     <string name="enum_timthumbs">Enum Timthumbs file with brute force (lot of time).</string>
     <string name="enum_plugins">Enum plugins with brute force (lot of time).</string>
     <string name="enum_themes">Enum themes with brute force (lot of time).</string>
-    <string name="about">\n Alessio Dalla Piazza \n=================\n Email: alessio.dallapiazza@gmail.com \n=================\n Blog: www.clshack.com \n=================\n All reports are writtend in external folder: \n WPScan \n=================\n \n Many thanks WPScan team. \n Original project for PC: \n https://github.com/wpscanteam/wpscan</string>
+    <string name="about">\n Alessio Dalla Piazza \n=================\n Email: alessio.dallapiazza@gmail.com \n=================\n Blog: www.clshack.com \n=================\n All reports are written in external folder: \n WPScan \n=================\n \n Many thanks WPScan team. \n Original project for PC: \n https://github.com/wpscanteam/wpscan</string>
 
 </resources>
